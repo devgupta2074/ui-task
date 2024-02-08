@@ -1,0 +1,344 @@
+html,
+:host {
+  font-family: system-ui;
+}
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: auto;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  margin: auto;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+.icon1box {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 0.5rem;
+  border: 1px solid #90cdf4;
+  background-color: #ebf8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon2box {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #f6993f;
+  background-color: #fde8d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectiondiv1 {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 1rem;
+}
+.sectiondiv2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+h2 {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  /* color: #001f3f; */
+  color: #033e79;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a202c;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.textsection {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.forbes-sub-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon1 {
+  font-size: 0.875rem;
+  z-index: 10;
+  color: #3498db;
+}
+.icon2 {
+  font-size: 0.875rem;
+  z-index: 10;
+  color: #f6993f;
+}
+.boxtext {
+  font-size: small;
+  width: 100%;
+}
+.box {
+  width: 100%;
+  height: 25rem;
+  padding-bottom: "50%";
+  padding: 1rem;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+}
+
+.boximage {
+  width: 100%;
+  background: rgba(238 245 255);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+}
+.boximage2 {
+  width: 100%;
+
+  background: rgba(255 248 238);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+}
+.rounded-square {
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+
+  background: rgba(238 244 255);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  position: absolute;
+  top: 70%;
+  left: 0%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.forbes {
+  padding: 0.2rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  margin: 0.2rem;
+
+  box-shadow: 0 4px 5px rgba(8, 16, 239, 0.1);
+  backdrop-filter: blur(7.2px);
+  border-radius: 0.3rem;
+}
+
+.forbes-section {
+  width: 10%;
+  gap: 0.2rem;
+  font-family: serif;
+
+  color: #cbd5e0;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+  .sectiondiv1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+  .sectiondiv2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+    margin: auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon1box {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #90cdf4;
+    background-color: #ebf8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon2box {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #f6993f;
+    background-color: #fde8d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #033e79;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a202c;
+    width: 75%;
+    margin-bottom: 0.5rem;
+  }
+  .textsection {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  .forbes-sub-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon1 {
+    font-size: 1.875rem;
+    z-index: 10;
+    color: #3498db;
+  }
+  .icon2 {
+    font-size: 1.875rem;
+    z-index: 10;
+    color: #f6993f;
+  }
+  .boxtext {
+    font-size: medium;
+    width: 95%;
+  }
+  .box {
+    width: "50%";
+    padding-bottom: "50%";
+    padding: 5rem;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .boximage {
+    width: "50%";
+
+    /* background: rgba(255, 119, 10, 0.17); */
+    background: rgba(238 245 255);
+
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+  }
+  .boximage2 {
+    width: "50%";
+    /* 
+    
+    background: rgba(0, 106, 255, 0.17); */
+    background: rgba(255 248 238);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+  }
+
+  .rounded-square {
+    z-index: -1;
+    width: 300px;
+    height: 300px;
+
+    background: rgba(238 245 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .forbes {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 5rem;
+
+    box-shadow: 0 4px 5px rgba(8, 16, 239, 0.1);
+    backdrop-filter: blur(7.2px);
+    border-radius: 0.3rem;
+    margin: 1rem;
+  }
+
+  .forbes-section {
+    width: 100%;
+    gap: 5rem;
+    font-family: serif;
+    font-weight: 600;
+    color: #cbd5e0;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
